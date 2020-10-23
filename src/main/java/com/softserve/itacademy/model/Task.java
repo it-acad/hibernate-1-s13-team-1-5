@@ -12,8 +12,14 @@ public class Task {
     private long id;
     private String name;
     private Priority priority;
-    private long state_id;
-    private long todo_id;
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name="state_id")
+    private State state;
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name="todo_id")
+    private ToDo todo;
 
     public Task() {}
 
@@ -41,19 +47,19 @@ public class Task {
         this.priority = priority;
     }
 
-    public long getState_id() {
-        return state_id;
+    public State getState() {
+        return state;
     }
 
-    public void setState_id(long state_id) {
-        this.state_id = state_id;
+    public void setState(State state) {
+        this.state = state;
     }
 
-    public long getTodo_id() {
-        return todo_id;
+    public ToDo getTodo() {
+        return todo;
     }
 
-    public void setTodo_id(long todo_id) {
-        this.todo_id = todo_id;
+    public void setTodo(ToDo todo) {
+        this.todo = todo;
     }
 }
