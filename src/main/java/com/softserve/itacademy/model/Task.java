@@ -3,6 +3,7 @@ package com.softserve.itacademy.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 @Entity
 @Table(name="tasks")
@@ -22,9 +23,9 @@ public class Task {
     @JoinColumn(name="state_id")
     private State state;
 
-    @ManyToOne(optional = false)
+    @OneToMany(mappedBy = "todos")
     @JoinColumn(name="todo_id")
-    private ToDo todo;
+    private List<ToDo> todo;
 
     public Task() {}
 
