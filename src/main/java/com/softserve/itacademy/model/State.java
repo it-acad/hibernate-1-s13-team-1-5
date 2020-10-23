@@ -18,7 +18,7 @@ public class State {
     @Pattern(regexp = "[a-zA-z{1,20}\\d\\s-]")
     private String name;
 
-    @ManyToOne(optional = false)
+    @OneToMany(mappedBy = "state")
     private List<Task> tasks;
 
     public State() {

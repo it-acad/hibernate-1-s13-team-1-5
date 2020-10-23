@@ -23,7 +23,7 @@ public class Task {
     @JoinColumn(name="state_id")
     private State state;
 
-    @OneToMany(mappedBy = "todos")
+    @ManyToMany
     @JoinColumn(name="todo_id")
     private List<ToDo> todo;
 
