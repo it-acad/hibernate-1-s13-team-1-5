@@ -1,6 +1,9 @@
 package com.softserve.itacademy.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 @Entity
@@ -8,8 +11,12 @@ import java.util.List;
 public class State {
 
     @Id
+    @Column(name = "id")
     @GeneratedValue
     private long id;
+
+    @NotNull
+    @Pattern(regexp = "[a-zA-z{1,20}\\d\\s-]")
     private String name;
 
     @OneToMany(mappedBy = "task")
