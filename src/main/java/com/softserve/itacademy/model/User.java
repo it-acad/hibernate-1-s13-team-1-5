@@ -37,23 +37,23 @@ public class User {
     private Role role;
 
     public User() {
+
     }
 
-    public User(int id, String first_name, String last_name, String email, String passport, Role role) {
+    public void setId(int id) {
         this.id = id;
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.email = email;
-        this.password = passport;
-        this.role = role;
     }
 
-    public void setFirst_name(String first_name) {
+    public void setFirstName(String first_name) {
         this.first_name = first_name;
     }
 
-    public void setLast_name(String last_name) {
+    public void setLastName(String last_name) {
         this.last_name = last_name;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public void setEmail(String email) {

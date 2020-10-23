@@ -9,7 +9,6 @@ import java.util.List;
 @Entity
 @Table(name = "states")
 public class State {
-
     @Id
     @Column(name = "id")
     @GeneratedValue
@@ -19,7 +18,7 @@ public class State {
     @Pattern(regexp = "[a-zA-z{1,20}\\d\\s-]")
     private String name;
 
-    @OneToMany(mappedBy = "task")
+    @ManyToOne(optional = false)
     private List<Task> tasks;
 
     public State() {

@@ -61,11 +61,11 @@ public class Task {
         this.state = state;
     }
 
-    public ToDo getTodo() {
+    public List<ToDo> getTodo() {
         return todo;
     }
 
-    public void setTodo(ToDo todo) {
+    public void setTodo(List<ToDo> todo) {
         this.todo = todo;
     }
 }
