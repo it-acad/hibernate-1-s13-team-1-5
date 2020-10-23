@@ -1,6 +1,8 @@
 package com.softserve.itacademy.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name="tasks")
@@ -10,6 +12,9 @@ public class Task {
     @Column(name="id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
+    @NotNull
+    @Size(min = 3,max = 200)
     private String name;
     private Priority priority;
 
