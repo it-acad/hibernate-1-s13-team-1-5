@@ -17,6 +17,8 @@ public class Task {
     @NotNull
     @Size(min = 3,max = 200)
     private String name;
+
+    @Enumerated(EnumType.STRING)
     private Priority priority;
 
     @ManyToOne(optional = false)
