@@ -8,6 +8,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -35,6 +36,14 @@ public class User {
     @ManyToOne()
     @JoinColumn(name = "Role_id")
     private Role role;
+
+    @ManyToMany(cascade = { CascadeType.ALL })
+    @JoinTable(
+            name = "todo_collaborator",
+            joinColumns = { @JoinColumn(name = "collaborator_id") },
+            inverseJoinColumns = { @JoinColumn(name = "todo_id") }
+    )
+    private Set<ToDo> todo;
 
     public User() {
 

@@ -1,0 +1,12 @@
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\model\Role.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\model\User.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\repository\RoleRepository.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\model\Task.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\model\ToDo.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\repository\TaskRepository.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\ToDoListApplication.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\model\State.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\repository\StateRepository.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\repository\ToDoRepository.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\repository\UserRepository.java
+D:\JOM\To-Do List\hibernate-1-s13-team-1-5\src\main\java\com\softserve\itacademy\model\Priority.java

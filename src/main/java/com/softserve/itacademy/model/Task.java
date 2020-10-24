@@ -17,15 +17,17 @@ public class Task {
     @NotNull
     @Size(min = 3,max = 200)
     private String name;
+
+    @Enumerated(EnumType.STRING)
     private Priority priority;
 
     @ManyToOne(optional = false)
     @JoinColumn(name="state_id")
     private State state;
 
-    @ManyToMany
-    @JoinColumn(name="todo_id")
-    private List<ToDo> todo;
+    @ManyToOne
+    @JoinColumn(name = "todo_id")
+    private ToDo todo;
 
     public Task() {}
 
@@ -61,11 +63,11 @@ public class Task {
         this.state = state;
     }
 
-    public List<ToDo> getTodo() {
+    public ToDo getTodo() {
         return todo;
     }
 
-    public void setTodo(List<ToDo> todo) {
+    public void setTodo(ToDo todo) {
         this.todo = todo;
     }
 }
