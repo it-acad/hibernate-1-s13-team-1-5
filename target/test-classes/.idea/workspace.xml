@@ -23,16 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2f25f53-14f3-4e8b-a78c-d255494204b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/itacademy/ToDoListApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/itacademy/ToDoListApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/itacademy/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/itacademy/model/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/itacademy/model/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/itacademy/model/ToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/softserve/itacademy/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/softserve/itacademy/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +59,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.RoleTests.constraintViolationOnEmptyRoleName">
+  <component name="RunManager" selected="Spring Boot.ToDoListApplication">
     <configuration name="ToDoListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.softserve.itacademy.ToDoListApplication" />
       <module name="todolist" />
@@ -140,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RoleTests.constraintViolationOnEmptyRoleName" />
         <item itemvalue="Spring Boot.ToDoListApplication" />
+        <item itemvalue="JUnit.RoleTests.constraintViolationOnEmptyRoleName" />
         <item itemvalue="Application.ToDoListApplication" />
         <item itemvalue="JUnit.StateTests.constraintViolationOnEmptyRoleName" />
       </list>
@@ -155,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603524510147</updated>
-      <workItem from="1603524544383" duration="16125000" />
+      <workItem from="1603524544383" duration="17189000" />
     </task>
     <servers />
   </component>
@@ -182,38 +173,38 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="527" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1603540151195" />
-    <state width="1248" height="551" key="GridCell.Tab.0.bottom" timestamp="1603544655507">
+    <state width="1248" height="551" key="GridCell.Tab.0.bottom" timestamp="1603544791944">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="551" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603544655507" />
-    <state width="1248" height="551" key="GridCell.Tab.0.center" timestamp="1603544655498">
+    <state width="1248" height="551" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603544791944" />
+    <state width="1248" height="551" key="GridCell.Tab.0.center" timestamp="1603544791941">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="551" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1603544655498" />
-    <state width="1248" height="551" key="GridCell.Tab.0.left" timestamp="1603544655493">
+    <state width="1248" height="551" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1603544791941" />
+    <state width="1248" height="551" key="GridCell.Tab.0.left" timestamp="1603544791939">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="551" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1603544655493" />
-    <state width="1248" height="551" key="GridCell.Tab.0.right" timestamp="1603544655502">
+    <state width="1248" height="551" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1603544791939" />
+    <state width="1248" height="551" key="GridCell.Tab.0.right" timestamp="1603544791943">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="551" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1603544655502" />
-    <state width="1248" height="551" key="GridCell.Tab.1.bottom" timestamp="1603544655515">
+    <state width="1248" height="551" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1603544791943" />
+    <state width="1248" height="551" key="GridCell.Tab.1.bottom" timestamp="1603544751627">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="551" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603544655515" />
-    <state width="1248" height="551" key="GridCell.Tab.1.center" timestamp="1603544655511">
+    <state width="1248" height="551" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603544751627" />
+    <state width="1248" height="551" key="GridCell.Tab.1.center" timestamp="1603544751625">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="551" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1603544655511" />
-    <state width="1248" height="551" key="GridCell.Tab.1.left" timestamp="1603544655510">
+    <state width="1248" height="551" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1603544751625" />
+    <state width="1248" height="551" key="GridCell.Tab.1.left" timestamp="1603544751624">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="551" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1603544655510" />
-    <state width="1248" height="551" key="GridCell.Tab.1.right" timestamp="1603544655513">
+    <state width="1248" height="551" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1603544751624" />
+    <state width="1248" height="551" key="GridCell.Tab.1.right" timestamp="1603544751626">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="551" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1603544655513" />
+    <state width="1248" height="551" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1603544751626" />
     <state width="1248" height="215" key="GridCell.Tab.2.bottom" timestamp="1603533682816">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
